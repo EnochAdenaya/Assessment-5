@@ -73,13 +73,45 @@ div.br {
     padding: 15px;
 }
 
-/* Page Content Styling */
+/* Styling for the headings of each section */
 .content {
     width: 100%;
     max-width: 1500px;
-    height: 500px;
-    background-color: yellow;
     margin: auto;
+}
+
+.section-title {
+    margin: 40px 0px 30px;
+    padding: 10px 0px;
+}
+
+.section-title h2 {
+    padding: 15px 0px;
+    font-weight: 300;
+}
+
+hr {
+    opacity: 25%;
+}
+
+/* Styling for the projects section */
+.projects-visual {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+}
+
+.project {
+    position: relative;
+}
+
+.project-name {
+    display: inline;
+    color: rgb(255, 255, 255);
+    background-color: rgb( 0, 0, 0);
+    padding: 10px;
+    position: absolute;
 }
 
 @media screen and (max-width: 600px) {
