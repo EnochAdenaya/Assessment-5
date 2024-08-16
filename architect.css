@@ -50,10 +50,24 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
-img {
+header img {
     width: 100%;
     max-width: 1500px;
     height: auto;
+}
+
+div.br {
+    position: absolute;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    margin-top: 25px;
+}
+
+.br-center {
+    background-color: rgba( 0, 0, 0, 0.75);
+    padding: 15px;
 }
