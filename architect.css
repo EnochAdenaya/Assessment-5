@@ -68,6 +68,26 @@ div.br {
 }
 
 .br-center {
+    color: rgba(255, 255, 255, 0.85);
     background-color: rgba( 0, 0, 0, 0.75);
     padding: 15px;
+}
+
+/* Page Content Styling */
+.content {
+    width: 100%;
+    max-width: 1500px;
+    height: 500px;
+    background-color: yellow;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .other-links {
+        display: none;
+    }
+    
+    .hide {
+        display: none;
+    }
 }
