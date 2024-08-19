@@ -80,8 +80,9 @@ div.br {
 /* Styling for the headings of each section */
 .content {
     width: 100%;
-    max-width: 1500px;
-    margin: auto;
+    /* max-width: 1500px;
+    margin: auto; */
+    padding: 0px 42px;
 }
 
 .section-title {
@@ -118,7 +119,11 @@ hr {
     position: absolute;
 }
 
-/* The contacts information */
+/* The about section */
+.about-content {
+    margin-bottom: 50px;
+}
+
 .contacts-info {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -150,9 +155,59 @@ hr {
     cursor: pointer;
 }
 
+/* contact Section */
+.get-in-touch {
+    margin-bottom: 10px;
+}
+
+.get-in-touch p {
+    background-color: rgb(200, 200, 200);
+    display: inline;
+}
+
+/* Form Styling */
+form * {
+    margin-bottom: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: none;
+    margin-top: 16px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
 /* Styling for the about section */
 .about p {
     margin: 10px 0px;
+}
+
+/* Location */
+.location img {
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb( 0, 0, 0);
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-message a{
+    color: inherit;
 }
 
 @media screen and (max-width: 600px) {
