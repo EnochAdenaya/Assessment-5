@@ -118,6 +118,38 @@ hr {
     position: absolute;
 }
 
+/* The contacts information */
+.contacts-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    width: 100%;
+}
+.contact-individual h2 {
+    font-weight: 100;
+}
+
+.contact-individual * {
+    margin-bottom: 15px;
+}
+
+.contact-individual p:nth-child(3) {
+    color: rgb(175, 175, 175);
+    font-size: 16px;
+}
+
+.contact-individual button {
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.contact-individual button:hover {
+    background-color: rgb(175, 175, 175);
+    cursor: pointer;
+}
+
 /* Styling for the about section */
 .about p {
     margin: 10px 0px;
